@@ -5,9 +5,12 @@ import "../styles/header.css";
 function Header(props) {
   return (
     <div className="header">
-      <h1 className="title">
-        {props.title}
+      <h1 className="name">
+        {props.name}
       </h1>
+      <h2 className="title">
+        {props.title}
+      </h2>
       <NavMenu 
         showAbout={props.showAbout}
         showSkills={props.showSkills}

@@ -4,7 +4,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
-function Content(props) {
+function TabContent(props) {
   function ShowContents() {
     if (props.about) {
       return <About />
@@ -24,4 +24,4 @@ function Content(props) {
   );
 }
 
-export default Content;
+export default TabContent;

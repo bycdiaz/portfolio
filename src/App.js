@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from "./components/Header";
-import Content from "./components/Content"
+import TabContent from "./components/TabContent"
 import "./styles/app.css"
 
 class App extends React.Component {
@@ -59,13 +59,14 @@ class App extends React.Component {
     return (
       <div className="app">
         <Header
-          title="Carlos Diaz"
+          name="Carlos Diaz"
+          title="Web Developer"
           showAbout={this.showAbout}
           showSkills={this.showSkills}
           showProjects={this.showProjects}
           showContact={this.showContact}
         />
-        <Content
+        <TabContent
           about={this.state.about}
           skills={this.state.skills}
           projects={this.state.projects}
