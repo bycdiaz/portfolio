@@ -1,0 +1,17 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-item {
+  font-size: 14pt;
+  padding: 2px;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 3px #000000be;
+  transition: text-shadow 0.2s ease-in-out;
+}
