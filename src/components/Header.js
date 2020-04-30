@@ -8,7 +8,12 @@ function Header(props) {
       <h1 className="title">
         {props.title}
       </h1>
-      <NavMenu />
+      <NavMenu 
+        showAbout={props.showAbout}
+        showSkills={props.showSkills}
+        showProjects={props.showProjects}
+        showContact={props.showContact}
+      />
     </div>
   );
 }

@@ -4,10 +4,10 @@ import "../styles/navmenu.css"
 function NavMenu(props) {
   return (
     <ul className="nav-bar">
-      <li className="nav-item">About Me</li>
-      <li className="nav-item">Skills</li>
-      <li className="nav-item">Projects</li>
-      <li className="nav-item">Contact</li>
+      <li className="nav-item" onClick={props.showAbout}>About Me</li>
+      <li className="nav-item" onClick={props.showSkills}>Skills</li>
+      <li className="nav-item" onClick={props.showProjects}>Projects</li>
+      <li className="nav-item" onClick={props.showContact}>Contact</li>
     </ul>
   );
 }
