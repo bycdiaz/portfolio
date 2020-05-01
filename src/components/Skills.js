@@ -8,7 +8,7 @@ function Skills() {
       {
         skillList.map(skill => {
           return (
-            <div class="skill" key={skill['skillName']}>
+            <div className="skill" key={skill['skillName']}>
               <img
                 className="skill-image"
                 src={skill['image']}

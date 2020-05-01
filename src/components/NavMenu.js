@@ -7,7 +7,6 @@ function NavMenu(props) {
       <li className="nav-item" onClick={props.showAbout}>About Me</li>
       <li className="nav-item" onClick={props.showSkills}>Skills</li>
       <li className="nav-item" onClick={props.showProjects}>Projects</li>
-      <li className="nav-item" onClick={props.showContact}>Contact</li>
     </ul>
   );
 }

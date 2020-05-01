@@ -2,9 +2,15 @@ import React from 'react';
 
 function About() {
   return (
-    <p className="about">
-        About me
-    </p>
+    <div className="about">
+      <div className="bio">
+        <p>About me</p>
+      </div>
+      <div className="contact">
+        <p>Contact info</p>
+      </div>
+    </div>
+    
   );
 }
 

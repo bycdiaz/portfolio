@@ -7,8 +7,7 @@ class App extends React.Component {
   state = {
     about:true,
     skills: false,
-    projects: false,
-    contact: false
+    projects: false
   }
 
   showAbout = () => {
@@ -16,8 +15,7 @@ class App extends React.Component {
       {
         about: true,
         skills: false,
-        projects: false,
-        contact: false
+        projects: false
       }
     )
   }
@@ -27,8 +25,7 @@ class App extends React.Component {
       {
         about: false,
         skills: true,
-        projects: false,
-        contact: false
+        projects: false
       }
     )
   }
@@ -38,8 +35,7 @@ class App extends React.Component {
       {
         about: false,
         skills: false,
-        projects: true,
-        contact: false
+        projects: true
       }
     )
   }
@@ -49,8 +45,7 @@ class App extends React.Component {
       {
         about: false,
         skills: false,
-        projects: false,
-        contact: true
+        projects: false
       }
     )
   }
@@ -64,13 +59,11 @@ class App extends React.Component {
           showAbout={this.showAbout}
           showSkills={this.showSkills}
           showProjects={this.showProjects}
-          showContact={this.showContact}
         />
         <TabContent
           about={this.state.about}
           skills={this.state.skills}
           projects={this.state.projects}
-          contact={this.state.contact}
         />
       </div>
     );
