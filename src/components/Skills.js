@@ -1,5 +1,6 @@
 import React from 'react';
 import skillList from "../skillList";
+import "../styles/skills.css"
 
 function Skills() {
   return (
