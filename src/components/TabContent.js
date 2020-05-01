@@ -2,6 +2,7 @@ import React from "react";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import "../styles/tabcontent.css";
 
 function TabContent(props) {
   function ShowContents() {
