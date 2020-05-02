@@ -6,7 +6,7 @@ function About() {
     <div className="about">
       <div className="bio">
         <p className="coding">
-          I'm Carlos. I'm a self-taight web developer. I started learning in 
+          I'm Carlos. I'm a self-taught web developer. I started learning in 
           late 2018 with <a href="https://www.theodinproject.com/">The Odin 
           Project</a>. I've found joy in coding in a lot of ways. Making
           stuff is cool. Helping new learners in The Odin Project community
