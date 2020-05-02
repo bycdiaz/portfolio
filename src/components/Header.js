@@ -8,7 +8,7 @@ function Header(props) {
       <h1 className="name">
         {props.name}
       </h1>
-      <h2 className="title">
+      <h2 className="title fade-in">
         {props.title}
       </h2>
       <NavMenu 
