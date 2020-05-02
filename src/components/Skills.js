@@ -1,5 +1,5 @@
 import React from 'react';
-import skillList from "../skillList";
+import skillList from "../json/skillList";
 import "../styles/skills.css"
 
 function Skills() {

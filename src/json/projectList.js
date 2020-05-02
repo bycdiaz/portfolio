@@ -1,6 +1,6 @@
-import configzmeImage from "./images/configzme.png";
-import prereqCheck from "./images/prereqcheck.png";
-import grotonToggle from "./images/grotonfd-toggle.gif";
+import configzmeImage from "../images/configzme.png";
+import prereqCheck from "../images/prereqcheck.png";
+import grotonToggle from "../images/grotonfd-toggle.gif";
 
 const projectList = [
   {
