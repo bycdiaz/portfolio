@@ -20,8 +20,8 @@ const projectList = [
     image: prereqCheck
   },
   {
-    projectName: 'Groton Fire Rescue - Drawing Winners Page',
-    description: 'Added feature for displaying drawing winners by year.',
+    projectName: 'Groton Fire Rescue',
+    description: 'Added tabs for displaying drawing winners by year for public/admin view and corrected visual artifacts on header image.',
     repoLink: 'https://github.com/I3uckwheat/GrotonFireRescue',
     liveLink: 'https://www.grotonfiredept.com/gun-drawing',
     madeWith: 'Made with JavaScript, Pug, and CSS.',
