@@ -10,7 +10,7 @@ function Skills() {
           return (
             <div className="skill" key={skill['skillName']}>
               <img
-                className="skill-image"
+                className={skill['skillName'] === 'Sinatra' ? 'sinatra' : 'skill-image'}
                 src={skill['image']}
                 alt={`${skill['skillName']} icon`}
               ></img> 
