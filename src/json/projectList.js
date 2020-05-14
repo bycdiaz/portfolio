@@ -5,18 +5,18 @@ import grotonToggle from "../images/grotonfd-toggle.gif";
 const projectList = [
   {
     projectName: 'Configz.me',
-    description: 'Created front-end for file configuration tool.',
+    description: 'Developed front-end for configuration files management tool that allows users to upload new files, edit files, view file contents, and delete files.',
     repoLink: 'https://github.com/bycdiaz/configzme/tree/master/frontend',
-    liveLink: '',
+    liveLink: 'https://configz.me/',
     madeWith: 'Made with JavaScript, ReactJS, and CSS.',
     image: configzmeImage
   },
   {
     projectName: 'Pre-req Check',
-    description: 'Web application that identifies pre-requisites, co-requisites, and post-requisites for courses at Drexel University.',
+    description: 'Web application that identifies pre-requisites, co-requisites, and post-requisites for any course at Drexel University.',
     repoLink: 'https://github.com/drexelbiomed/pre-req_check',
     liveLink: 'https://pre-req-check.herokuapp.com/',
-    madeWith: 'Made with Sinatra, Ruby, Bootstrap, and CSS.',
+    madeWith: 'Made with Sinatra, Ruby, and Bootstrap.',
     image: prereqCheck
   },
   {

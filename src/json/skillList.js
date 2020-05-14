@@ -7,6 +7,7 @@ import vue from "../images/vue.svg";
 import sinatra from "../images/sinatra.png";
 import bootstrap from "../images/bootstrap.png";
 import pug from "../images/pug.svg";
+import html from "../images/html.png"
 
 const skillList = [
   {
@@ -20,13 +21,18 @@ const skillList = [
   },
 
   {
-    skillName: 'Vue.js',
-    image: vue
+    skillName: 'Ruby',
+    image: ruby
   },
 
   {
-    skillName: 'Ruby',
-    image: ruby
+    skillName: 'Git',
+    image: git
+  },
+
+  {
+    skillName: 'Vue.js',
+    image: vue
   },
 
   {
@@ -50,8 +56,8 @@ const skillList = [
   },
 
   {
-    skillName: 'Git',
-    image: git
+    skillName: 'HTML',
+    image: html
   }
 ]
 
