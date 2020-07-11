@@ -1,12 +1,19 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import "../styles/navmenu.css"
 
-function NavMenu(props) {
+function NavMenu() {
   return (
     <ul className="nav-bar">
-      <li className="nav-item" onClick={props.showAbout}>About Me</li>
-      <li className="nav-item" onClick={props.showSkills}>Skills</li>
-      <li className="nav-item" onClick={props.showProjects}>Projects</li>
+      <li className="nav-item">
+        <Link to="/">Home</Link>
+      </li>
+      <li className="nav-item">
+        <Link to="/skills">Skills</Link>
+      </li>
+      <li className="nav-item">
+        <Link to="/projects">Projects</Link>
+      </li>
     </ul>
   );
 }

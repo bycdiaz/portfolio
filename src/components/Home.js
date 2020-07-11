@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/about.css"
 
-function About() {
+function Home() {
   return (
     <div className="about">
       <div className="bio">
@@ -32,4 +32,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;

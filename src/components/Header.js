@@ -11,12 +11,7 @@ function Header(props) {
       <h2 className="title fade-in">
         {props.title}
       </h2>
-      <NavMenu 
-        showAbout={props.showAbout}
-        showSkills={props.showSkills}
-        showProjects={props.showProjects}
-        showContact={props.showContact}
-      />
+      <NavMenu />
     </div>
   );
 }
