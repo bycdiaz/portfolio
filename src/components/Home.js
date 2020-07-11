@@ -1,9 +1,16 @@
 import React from 'react';
-import "../styles/about.css"
+import styled from 'styled-components';
+const AboutContainer = styled.div`
+.bio > * {
+  font-size: 14pt;
+  margin: 15px 0px;
+  line-height: normal;
+}
+`
 
 function Home() {
   return (
-    <div className="about">
+    <AboutContainer>
       <div className="bio">
         <p className="coding">
           I'm Carlos. I'm a self-taught web developer. I started learning in 
@@ -27,7 +34,7 @@ function Home() {
           through <a href="https://www.linkedin.com/in/bycdiaz/">LinkedIn</a>.
         </p>
       </div>
-    </div>
+    </AboutContainer>
     
   );
 }

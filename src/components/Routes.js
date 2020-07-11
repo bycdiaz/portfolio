@@ -1,12 +1,17 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
+import styled from 'styled-components';
 import Home from "./Home";
 import Skills from "./Skills";
 import Projects from "./Projects";
+const RoutesContainer = styled.div`
+margin-top: 30px;
+max-width: 60vw;
+`
 
 function Routes() {
   return (
-    <div className="routes">
+    <RoutesContainer>
       <Switch>
         <Route path="/skills">
           <Skills />
@@ -18,7 +23,7 @@ function Routes() {
           <Home />
         </Route>
       </Switch>
-    </div>
+    </RoutesContainer>
   );
 }
 

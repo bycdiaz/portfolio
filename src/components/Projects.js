@@ -1,17 +1,43 @@
 import React from 'react';
 import projectList from "../json/projectList";
-import "../styles/projects.css";
+import styled from 'styled-components';
+const ProjectContainer = styled.div`
+.project-name {
+  font-size: 20pt;
+  margin: 10px 0px;
+}
+
+.made-with {
+  margin: 10px 0px;
+}
+
+.project-links {
+  margin: 25px auto;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project-image {
+  width: 400px;
+  height: 400px;
+  display: block;
+  border: 3px solid #000000;
+  margin: 30px auto;
+}
+`
 
 function Projects() {
   return (
-    <div className="projects">
+    <ProjectContainer>
       {
         projectList.map(project => {
           return (
             <div className="project" key={project['projectName']}>
               <h2 className="project-name">{project['projectName']}</h2>
               <h3 className="project-description">{project['description']}</h3>
-              <h3 className="project-description">{project['madeWith']}</h3>
+              <h3 className="made-with">{project['madeWith']}</h3>
               <div className="project-links">
                 <a 
                   href={project['repoLink']}
@@ -39,7 +65,7 @@ function Projects() {
           )
         })
       }
-    </div>
+    </ProjectContainer>
   );
 }
 
