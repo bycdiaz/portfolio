@@ -13,7 +13,7 @@ function Home() {
     <AboutContainer>
       <div className="bio">
         <p className="coding">
-          I'm Carlos. I'm a self-taught web developer. I started learning in 
+          I'm Carlos and I'm currently a freelance web developer. I started learning in 
           late 2018 with <a href="https://www.theodinproject.com/">The Odin 
           Project</a>. I've found joy in coding in a lot of ways. Making
           stuff is cool. Helping new learners in The Odin Project community
@@ -30,7 +30,7 @@ function Home() {
         </p>
         <p className="contact">
           Check out my <a href="https://github.com/bycdiaz">GitHub</a>.
-          You can contact me through <a href="mailto:bycdiaz@protonmail.com">email</a> or
+          You can contact me through <a href="mailto:bycdiaz@protonmail.com">my email</a> or
           through <a href="https://www.linkedin.com/in/bycdiaz/">LinkedIn</a>.
         </p>
       </div>
