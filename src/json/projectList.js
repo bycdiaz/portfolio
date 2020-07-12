@@ -7,7 +7,7 @@ const projectList = [
     projectName: 'Configz.me',
     description: 'Created front-end for file configuration tool.',
     repoLink: 'https://github.com/bycdiaz/configzme/tree/master/frontend',
-    liveLink: '',
+    liveLink: 'https://configz.me/',
     madeWith: 'Made with JavaScript, ReactJS, and CSS.',
     image: configzmeImage
   },
